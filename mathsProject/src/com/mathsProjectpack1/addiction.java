@@ -14,5 +14,7 @@ int a = 10, b = 5, c;
 	{
 	c=a*b;
         System.out.println("Multipication of " + a + " and " + b " = " + c);
+		
+		System.out.println("it is done by mani");
 	}
 }
