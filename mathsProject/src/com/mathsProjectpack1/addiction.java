@@ -2,15 +2,17 @@ package com.mathsProjectpack1;
 
 public class addiction {
 
+int a = 10, b = 5, c;	
 	
-	
-	public void addiction()
+	public void Add()
 	{
-		
-		
-		int a=10,b=0;
-		int c=a+b;
-		
-		System.out.println("addiction printed by aaron");
+	c=a+b;
+	System.out.println("Sum of" + a + "and" + b " = " + c);
+	}
+	
+	public void Multiply()
+	{
+	c=a*b;
+        System.out.println("Multipication of " + a + " and " + b " = " + c);
 	}
 }
